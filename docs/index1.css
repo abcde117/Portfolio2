@@ -15,11 +15,6 @@
     }
 }
 
-/* 画像サイズを常にウィンドウ幅に設定 */
-img {
-  width: auto%;
-  height: auto%;
-}
 
 /* Copyrightをセンタリング */
 footer{
