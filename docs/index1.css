@@ -17,7 +17,7 @@
 
 /* 画像サイズを常にウィンドウ幅に設定 */
 img {
-  width: 100%;
+  width: 25%;
   height: auto;
 }
 
