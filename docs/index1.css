@@ -1,0 +1,27 @@
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+    /* 左寄せ */
+    ul{
+      padding-left: 0;
+    }
+
+    li {
+      color: #ffffff;
+      background-color: #7000cc;
+      margin:1em; /* 紫領域の外枠の余白を設定 */
+      padding:1em;/* 紫領域の内枠の余白を設定 */
+    }
+}
+
+/* 画像サイズを常にウィンドウ幅に設定 */
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Copyrightをセンタリング */
+footer{
+  text-align: center;
+}
